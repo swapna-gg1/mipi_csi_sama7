@@ -4,12 +4,12 @@ isc\_cam\_sam\_a5d2\_xult.X
 Defining the Architecture
 -------------------------
 
-![](../../../../docs/html/csi_sama7g5_cam_arch.png)
+![](../../docs/html/csi_sama7g5_cam_arch.png)
 
 This application demonstrates how to use the MIPI DPHY, CSI2, CSI2DC and ISC peripherals. For this example, the raspberry pi camera module with the imx219 image sensor is used. The application will store the captured images to a USB storage device in BMP format. 
 When user inserts a USB stick, the blue LED turns ON indicating that the simple filesystem is mounted. When the user presses the SW1 button the captured image is copied to a buffer by the ISC. This buffer is copied to the Filesystem mounted on the USB stick as a BMP image. The green LED turns ON indicating that the USB stick is ready to be detached.
 
-![](../../../../docs/html/sama7g5ek_buttonSW1.png)
+![](../../docs/html/sama7g5ek_buttonSW1.png)
 
 The camera module can be purchased from [this](https://www.adafruit.com/product/3099?src=raspberrypi) link.
 
@@ -24,7 +24,7 @@ The camera module can be purchased from [this](https://www.adafruit.com/product/
 Creating the Project Graph
 --------------------------
 
-![](../../../../docs/html/mipi_csi_cam_prj_graph.png)
+![](../../docs/html/mipi_csi_cam_prj_graph.png)
 
 The Project Graph diagram shows the Harmony components that are included in this application. Lines between components are drawn to satisfy components that depend on a capability that another component provides.
 
@@ -77,9 +77,9 @@ Configure the hardware as follows:
 
 -   You can optionally connect an FTDI UART to USB adapter cable to J20.
 
-![](../../../../docs/html/csi_sama7g5_setup1.png)
+![](../../docs/html/csi_sama7g5_setup1.png)
 
-![](../../../../docs/html/csi_sama7g5_setup2.png)
+![](../../docs/html/csi_sama7g5_setup2.png)
 
 Running the Demonstration
 -------------------------
@@ -87,7 +87,7 @@ Running the Demonstration
 Press the SW3 nSTART button to power-on the board. The green LED will turn On and Off indicating the harmony application is running. Insert a USB stick. Blue LED turns ON indicating the USB is attached and a file system is mounted. Press the SW1 "USER BUTTON" to capture an image. The blue LED turns off while the image is copied to the USB stick in BMP file format. The green LED turns ON indiciating that the USB stick can be detached.
 <b>Note:  It will take 7-8 s for the image to be written to the USB stick and the green LED to turn ON. After removing the USB device, you can insert it again and once the blue LED turns ON, press SW1 to capture another image. </b>
 
-![](../../../../docs/html/csi_sama7g5_demo.png)
+![](../../docs/html/csi_sama7g5_demo.png)
 
 * * * * *
 
