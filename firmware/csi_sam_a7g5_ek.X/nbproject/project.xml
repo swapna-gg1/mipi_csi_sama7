@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://www.netbeans.org/ns/project/1">
+    <type>com.microchip.mplab.nbide.embedded.makeproject</type>
+    <configuration>
+        <data xmlns="http://www.netbeans.org/ns/make-project/1">
+            <name>csi_sam_a7g5_ek</name>
+            <creation-uuid>e85174e8-b4db-4d7e-94a1-fa3b40a2b221</creation-uuid>
+            <make-project-type>0</make-project-type>
+            <sourceEncoding>ISO-8859-1</sourceEncoding>
+            <c-extensions>c,S</c-extensions>
+            <cpp-extensions/>
+            <header-extensions>h,ld</header-extensions>
+            <asminc-extensions/>
+            <make-dep-projects/>
+            <sourceRootList>
+                <sourceRootElem>../src/config/sam_a7g5_ek_IMX219/driver/cam</sourceRootElem>
+                <sourceRootElem>../src/config/sam_a7g5_ek_IMX219/driver/isc</sourceRootElem>
+                <sourceRootElem>../src/config/sam_a7g5_ek_IMX219/peripheral/isc</sourceRootElem>
+            </sourceRootList>
+            <confList>
+                <confElem>
+                    <name>sam_a7g5_ek_IMX219</name>
+                    <type>2</type>
+                </confElem>
+            </confList>
+            <formatting>
+                <project-formatting-style>false</project-formatting-style>
+            </formatting>
+        </data>
+    </configuration>
+</project>

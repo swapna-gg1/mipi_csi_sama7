@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <executable name="dist/sam_a7g5_ek_IMX219/production/csi_sam_a7g5_ek.X.production.elf">
+    <memory name="data">
+      <units>bytes</units>
+      <length>2130706432</length>
+      <used>232000</used>
+      <free>2130474432</free>
+    </memory>
+  </executable>
+</project>

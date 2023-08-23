@@ -1,0 +1,1 @@
+$(MP_EXTRA_AS_PRE)  -c -mprocessor=$(MP_PROCESSOR_OPTION) -DXPRJ_sam_a7g5_ek_IMX219=$(CND_CONF)    -Wa,--defsym=__MPLAB_BUILD=1$(MP_EXTRA_AS_POST),--gdwarf-2 -mdfp="${DFP_DIR}"C:\Users\c40450\HarmonyDevel\harmony_gfx_apps_sam_a7g5\apps\mipi_csi\firmware\src\config\sam_a7g5_ek_IMX219\cstartup.S
